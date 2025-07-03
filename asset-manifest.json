@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-final-project/static/css/main.c3b235aa.css",
+    "main.js": "/react-final-project/static/js/main.d3b13e35.js",
+    "static/media/TestImage.svg": "/react-final-project/static/media/TestImage.33f1c8e830f37dc2dd5bdd2ef3db0bd4.svg",
+    "static/media/office-light.svg": "/react-final-project/static/media/office-light.99fff9646f23a8a6add083f7dd104bd0.svg",
+    "static/media/office-dark.svg": "/react-final-project/static/media/office-dark.6ab03a9bd912b1f106583603163702fd.svg",
+    "static/media/sun.svg": "/react-final-project/static/media/sun.3d23714cb72b36598c0240a58eb56dc6.svg",
+    "static/media/url-dark.svg": "/react-final-project/static/media/url-dark.81efe29ffa5fa42cde849df2a2458ed6.svg",
+    "static/media/url-light.svg": "/react-final-project/static/media/url-light.1593f5e220cdd9a948cdea24ebe937a5.svg",
+    "static/media/twitter.svg": "/react-final-project/static/media/twitter.14ceb459f0e346f6d9c1d69cc8873a9a.svg",
+    "index.html": "/react-final-project/index.html",
+    "static/media/moon.svg": "/react-final-project/static/media/moon.d1c16a5f96b49eb2cebcb811a460b3d5.svg",
+    "static/media/search-icon.svg": "/react-final-project/static/media/search-icon.a4ae5386d15539d71539cb3a4e453542.svg",
+    "static/media/pin-dark.svg": "/react-final-project/static/media/pin-dark.64106916de08d49850120e1d1c72339f.svg",
+    "static/media/pin-light.svg": "/react-final-project/static/media/pin-light.38dc5101bedde2165d34228d05890bfe.svg",
+    "main.c3b235aa.css.map": "/react-final-project/static/css/main.c3b235aa.css.map",
+    "main.d3b13e35.js.map": "/react-final-project/static/js/main.d3b13e35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b235aa.css",
+    "static/js/main.d3b13e35.js"
+  ]
+}
