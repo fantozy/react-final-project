@@ -1,0 +1,11 @@
+export {default as Moon} from './moon.svg';
+export {default as OfficeDark} from './office-dark.svg';
+export {default as OfficeLight} from './office-light.svg';
+export {default as PinDark} from './pin-dark.svg';
+export {default as PinLight} from './pin-light.svg';
+export {default as SearchIcon} from './search-icon.svg';
+export {default as Sun} from './sun.svg';
+export {default as Twitter} from './twitter.svg';
+export {default as UrlDark} from './url-dark.svg';
+export {default as UrlLight} from './url-light.svg';
+export {default as TestImage} from './TestImage.svg';

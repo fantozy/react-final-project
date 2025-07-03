@@ -1,0 +1,249 @@
+.card {
+    padding: 2rem 0;
+    width: 730px;
+    border-radius: 15px;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card-light {
+    background: #FEFEFE;
+}
+
+.card-dark {
+    background: #1E2A47;
+    box-shadow: none;
+}
+
+.card__info {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card__info-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card__info-head-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card__info-head-name h1 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.card-light .card__info-head-name h1 {
+    color: #2B3442;
+}
+
+.card-dark .card__info-head-name h1 {
+    color: #FFF;
+}
+
+.card__info-head-name span {
+    color: #0079FF;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+.card__info-head span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.card-light #join {
+    color: #697C9A;
+}
+
+.card-dark #join {
+    color: #fff;
+}
+
+.card__image-viewport-change {
+    display: none;
+}
+
+.card__image img {
+    border-radius: 50%;
+    width: 140px;
+    height: auto;
+}
+
+.card__info-bio p {
+    margin: 2rem 0;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.75;
+}
+
+.card-light .card__info-bio p {
+    color: #4B6A9B;
+}
+
+.card-dark .card__info-bio p {
+    color: #FFF;
+    opacity: .75;
+}
+
+.card__info-acc {
+    border-radius: 10px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-light .card__info-acc {
+    background: #F6F8FF;
+}
+
+.card-dark .card__info-acc {
+    background: #141D2F;
+}
+
+.card__info-acc-element h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.card-light .card__info-acc-element h3 {
+    color: #4B6A9B;
+}
+
+.card-dark .card__info-acc-element h3 {
+    color: #FFF;
+}
+
+.card__info-acc-element p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.card-light .card__info-acc-element p {   
+    color: #2B3442;
+}
+
+.card-dark .card__info-acc-element p {
+    color: #fff;
+}
+
+.card__info-about {
+    margin: 2rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1rem 5rem;
+}
+
+.elem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.elem img {
+    margin-right: 1rem;
+}
+
+.elem p,
+.elem a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.elem a {
+    inline-size: 175px;
+    overflow-wrap: break-word;
+}
+
+.card-dark .elem a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card-light .elem a {
+    text-decoration: none;
+    color: #4B6A9B;
+}
+
+.elem a:hover {
+    text-decoration: underline;
+}
+
+.card-light .elem p {
+    color: #4B6A9B;
+}
+
+.card-dark .elem p {
+    color: #FFF;
+} 
+
+@media screen and (max-width: 800px) {
+    .card {
+        padding: 2rem;
+        width: 90vw;
+    }
+    .card__info {
+        width: 100%;
+    }
+    .card__image-original {
+        display: none;
+    }
+    .card__image-viewport-change {
+        display: contents;
+    }
+    .viewport800 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card__info-head {
+        width: 60%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card__info-head-name h1 {
+        font-size: 16px;
+    }
+    .card__info-head-name span {
+        font-size: 13px;
+    }
+    .card__image-viewport-change img {
+        width: 100px;
+    }
+    .card__info-bio p {
+        font-size: 13px;
+    }
+    .card__info-acc-element .h3 {
+        font-size: 11px;
+    }
+    .card__info-acc-element p {
+        font-size: 16px;
+    }
+    .card__info-about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, minmax(0, 60px));
+    }
+    .elem p,
+    .elem a {
+        font-size: 13px;
+    }
+}

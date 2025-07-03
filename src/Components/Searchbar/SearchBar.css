@@ -1,0 +1,92 @@
+.search {
+    height: 70px;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-light {
+    background:#FEFEFE;
+}
+
+.search-dark {
+    background: #1E2A47;
+    box-shadow: none;
+}
+
+.search-dark #input {
+    background: #1E2A47;
+}
+
+.search__input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.search__input label {
+    cursor: pointer;
+    padding: 1.5rem 1rem;
+    height: 100%;
+}
+
+#input {
+    cursor: pointer;
+    height: 70px;
+    border: none;
+    outline: none;
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+}
+
+.search-dark #input {
+    color: #FFF;
+}
+
+.search-light #input::placeholder {
+    color: #4B6A9B;
+}
+
+.search-dark #input::placeholder {
+    color: #FFF;
+}
+
+.search button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #0079FF;
+    color: #FFF;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    margin-right: 1rem;
+    font-family: "Space Mono"
+}
+
+.search button:active {
+    background: #60ABFF;
+
+}
+
+.button-before {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-before::before{
+    content: "No results";
+    display: block;
+    color: #F74646;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Space Mono";
+    inline-size: 100px;
+}
